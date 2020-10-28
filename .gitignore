@@ -4,3 +4,4 @@ decompresstest.py
 resources/**
 mount/**
 images
+tmp
