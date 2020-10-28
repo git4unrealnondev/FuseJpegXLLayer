@@ -13,3 +13,5 @@ jpegxl is currently in alpha as of Oct 27, 2020 so dont put anything serious in 
 :: I AM NOT RESPONSIBLE FOR ANY DATA LOST / MALFORMED DUE TO YOUR TOM FOOLERY. I AM NOT RESPONSIBLE FOR ANY DATA THAT INTERACTS WITH THIS PROGRAM IN ANY WAY ::
 
 To Run type: python3 ./main.py mount/ mountPoint/
+
+Code from: https://github.com/skorokithakis/python-fuse-sample
