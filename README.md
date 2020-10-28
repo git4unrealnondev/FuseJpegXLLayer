@@ -6,7 +6,7 @@ Include trailing "/" in folder names.
 
 Any JPGs and PNGs put into mountPoint/ will be compressed  using JPEGXL.
 
-In resources compile JPEGXL's Source Code according to: https://gitlab.com/wg1/jpeg-xl
+Make a folder called resources and compile JPEGXL's Source Code according to: https://gitlab.com/wg1/jpeg-xl
 
 jpegxl is currently in alpha as of Oct 27, 2020 so dont put anything serious in their otherwise you might not be able to get your data out when a new change happens
 
